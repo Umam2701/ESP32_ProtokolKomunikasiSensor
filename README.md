@@ -53,30 +53,31 @@ Analisa : Pada percobaan ini program diubah sehingga ketika sensor disentuh maka
 
 **B. Mengakses Sensor DHT 11 (Single Wire/BUS)**
 
-*- Mengakses Sensor DHT 11 (contoh)*
-
-
+Pada percobaan kedua ini menggunakan sensor suhu dan kelembapan yaitu DHT11 yang dapat menghasilkan data sehingga dapat disimpan oleh ESP32 dan akan ditampilkan pada serial monitor.
 
 *- Kondisi jika suhu 30 derajat, maka LED Merah menyala dan Buzzer berbunyi. Jika tidak, maka LED akan running*
 
-Uploading Output Sensor DHT11+Buzzer.mp4…
-
-Uploading Output Sensor DHT11+Buzzer.mp4…
+https://user-images.githubusercontent.com/118170084/209194634-fa404bd2-9be1-4fcc-b01e-21caa67ec516.mp4
 
 
-Uploading Output Sensor DHT11+Buzzer.mp4…
-
-
-
+<br>
 
 **C. Mengakses Sensor RFID (SPI Communication)**
 
-*- Mengakses Sensor RFID*
+*- Mengakses Sensor RFID (contoh)*
 
+<img width="301" alt="Rangkaian RFID" src="https://user-images.githubusercontent.com/118170084/209190908-0e13d54d-9f62-444a-8efc-bc1226d50619.png">
 
+*Output :*
+
+https://user-images.githubusercontent.com/118170084/209193536-8a2ac457-33c0-457f-9eb5-564f076f4e1e.mp4
 
 *- Kondisi apabila Tag RFID didekatkan pada Reader, maka LED Hijau akan menyala, servo akan bergerak ke kanan (lalu kembali ke posisi semula setelah 3 detik) dan di Serial Monitor akan tertampil pesan “Akses Diterima, Silahkan Masuk”. Apabila Tag RFID tidak dikenali, maka LED Merah akan menyala, servo tidak bergerak dan di Serial Monitor akan tertampil pesan “Akses Ditolak”*
 
-Keluaran 
+*Output :*
+
+https://user-images.githubusercontent.com/118170084/209194393-da80f85f-5488-4994-80a0-73d9539bd06f.mp4
+
+
 
 
